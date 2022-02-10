@@ -1,0 +1,106 @@
+
+
+
+*,*:before,*:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;    
+}
+
+.wrap{    
+    width: 100%;
+    min-height:100%;
+    overflow: hidden;
+}
+.page{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0; 
+} 
+.paralax{
+    position:relative;
+    height:100%;
+}
+    
+.montains{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.paralax_mountains_1{
+    background: url('../img/mountains_1.png') 0 0 / cover no-repeat;
+}
+.paralax_mountains_2{
+    background: url('../img/mountains_2.png') bottom left / 45% no-repeat;
+    z-index: 1;
+}
+.paralax_mountains_3{
+    background: url('../img/mountains_3.png') bottom right / 100% no-repeat;
+    z-index: 1;
+}
+.paralax_fog{
+    background: url('../img/mountains_1.png') 0 0 / cover no-repeat;
+}
+.content{
+    background-color: blue;
+}
+.content_body{}
+
+
+
+
+/* 
+.tilo{
+	margin:10px;
+	padding:25px;
+	background-color:#E5E5E4;
+	border-radius: 5px;
+}
+.col-lg-4{
+	border-radius: 6px;
+	background-color: #1E2939;
+}
+
+#log{
+	width: 100%;
+	margin-top:40px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+.contInfo{
+	margin:50px;
+}
+
+.contact-c{
+	color:silver;
+}
+.col-lg-8{
+	padding:50px;
+}
+.zagolovok{
+	color:#1E2939;
+	font-size: 50px;
+}
+.informacija{
+	margin-left: 50px;
+}
+span{
+	font-size: 15px;
+}
+.h1{
+	padding-top: 20px;
+}
+.foto{
+	width: 250px;
+} */
+
